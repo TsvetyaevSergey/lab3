@@ -4,6 +4,6 @@ WORKDIR app
 
 COPY . .
 
-ENV message 100
+ENV message simonov_roman
 
 CMD ["python", "main.py"]
